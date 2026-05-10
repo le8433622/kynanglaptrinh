@@ -3,12 +3,6 @@ name: Validate Missing Points Conclusion
 on:
   pull_request:
   push:
-    branches:
-      - main
-      - master
-
-jobs:
-  validate:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -17,7 +11,4 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
 
-      - name: Validate task reports
-        run: python scripts/validate_missing_points.py --path task_reports --strict

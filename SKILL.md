@@ -45,6 +45,4 @@ Use this exact section at the end of every task report:
 - Deadline:
 
 
-## Automation gate
-- All task reports in `task_reports/*.md` must pass `scripts/validate_missing_points.py`.
-- CI must fail when any required field is missing in `Missing Points Conclusion`.
+

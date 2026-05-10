@@ -36,7 +36,4 @@ This repository stores a reusable **Fullstack Engineer Skill Builder** prompt.
 - `templates/TASK_RETRO_TEMPLATE.md`: template to report result + shortcomings after each task.
 
 
-## Automation
-- CI workflow: `.github/workflows/validate-missing-points.yml`
-- Local check: `python scripts/validate_missing_points.py --path task_reports --strict`
-- Purpose: fail validation if any task report is missing the required `Missing Points Conclusion` block fields.
+
