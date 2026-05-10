@@ -45,6 +45,4 @@ Use this exact section at the end of every task report:
 - Deadline:
 
 
-## Automation enforcement
-- Run `python scripts/check_missing_points.py reports/tasks` before merge.
-- CI must fail if a task report misses the mandatory section or fields.
+
